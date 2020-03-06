@@ -1,15 +1,12 @@
-### Date created
-Include the date you created this project and README file.
+### 3/6/2020
 
-### Project Title
-Replace the Project Title
+### US Bikeshare Data Investigation
 
 ### Description
-Describe what your project is about and what it does
+Use Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. The code imports raw data and answers interesting questions by computing descriptive statistics. The script takes in raw input to create an interactive experience in the terminal to present these statistics
 
 ### Files used
-Include the files used
+Python 3.x, Numpy and Pandas are required to run this script.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+All credit due to my mentor Rogelio M. for his patience and guidance.
