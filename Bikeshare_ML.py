@@ -169,15 +169,15 @@ def user_stats(df,city):
         print('Gender data are not available for Washington')
 
     if city != 'washington':
-        #display the earliest year of birth
+        #Show the earliest year of birth
         eldest_person = df['Birth Year'].min()
         print('The earliest birth year on record is {}'.format(eldest_person))
 
-        #display the recent year of birth
+        #Show the recent year of birth
         youngest_person = df['Birth Year'].max()
         print('The latest birth year on record is {}'.format(youngest_person))
 
-        #display the most common year of birth
+        #Show most common year of birth
         birthyear_mode_stat = df['Birth Year'].mode()[0]
         print('Most people were born in the year {}'.format(birthyear_mode_stat))
     else:
