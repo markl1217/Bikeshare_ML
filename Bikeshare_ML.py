@@ -188,7 +188,7 @@ def user_stats(df,city):
     print('-'*40)
 
 def raw_data(df):
-    #ask user if they would like to see 5 rows of raw data
+    #See 5 rows of raw data ?
 
     data = 0
     while True:
